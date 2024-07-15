@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    font-family: "Roboto", sans-serif;
+}
+
+.corpo{
+    height: 80vh;
+    width: 100vw;
+    background-color: #bdbef4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shoes{
+    height: 60vh;
+}
+
+.form{
+    background-color: white;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    height: 55vh;
+    width: 25vw;
+    margin-right: 5vw;
+    border-radius: 3px;
+}
+
+#esqueci{
+    display: block;
+    font-size: 14px;
+    color: rgb(42, 41, 41);
+    margin-left: 2vw;
+    margin-top: 2vh;
+}
+
+.Title{
+    margin-left: 2vw;
+}
+
+.Titles p{
+    font-size: 12px;
+    margin-top: 2vh;
+    color: rgb(42, 41, 41);
+}
+
+.Inputs label{
+    display: block;
+    font-size: 10px;
+    font-weight: bold;
+    margin-left: 2vw;
+}
+
+.Inputs input{
+    width: 21vw;
+    height: 6vh;
+    margin-left: 2vw;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: #f8f8f8;
+}
+
+.Inputs input::placeholder{
+    padding-left: 10px;
+}
+
+#acessar{
+    width: 21vw;
+    height: 5vh;
+    margin-left: 2vw;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #C92071;
+    color: white;
+}
+
+.icons{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons img{
+    height: 3vh;
+    margin-left: 1vw;
+}

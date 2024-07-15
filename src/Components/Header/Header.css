@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.cabecalho{
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    padding-left: 2vw;
+}
+
+h1{
+    padding-left: 10px;
+    color: deeppink;
+    font-size: xx-large;
+}
+
+.cabecalho img{
+    height: 10vh;
+    border-radius: 10px;
+}
